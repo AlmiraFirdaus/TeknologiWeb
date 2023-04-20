@@ -1,0 +1,265 @@
+div{
+    left: 0px;
+}
+
+body{
+    background-color: #ffffff;
+    width: 1245px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+td{
+    margin-top: 50px;
+   
+}
+
+.droppdown{
+    margin-left: 500px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    float: right;
+    color: #000000;
+    font-size: 20px;
+
+}
+
+.dr{
+    margin-right: 10px;
+}
+
+.cont{
+    display: flex;
+    padding-bottom: 500px;
+}
+
+.container{
+    padding-top: 10px;
+    padding-left: 40px;
+    display: flex;
+    font-size: 40px; 
+    color: #000;
+    margin: 20px;
+    margin-bottom: 40px;
+    width: 20px;
+    height: 20px;
+}
+
+.head{
+    overflow: auto;
+    background-color: #ffffff;
+    width: 1520px;
+    height: 100px;
+}
+
+
+ul{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+   display: inline-block; 
+   margin-right: 30px;
+}
+
+.jumbotron{ 
+    position: relative;
+    width: 1520px;
+    height: 820px;
+    background-image: url(art.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: -10px;
+}
+
+.blurimage{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -10px;
+}
+   
+.blur{
+    background-color: rgba(255, 255, 255, 0.5);
+    clip-path: inset(0 30% 0 0);
+    filter: blur(10px) brightness(100%);
+    background-attachment: fixed;
+
+}
+   
+.theme{
+    position: absolute;
+    top: 40%;
+    width: 700px;
+    margin-left: 100px;
+    padding-bottom: 10px;
+    
+}
+
+.title{
+    font-weight:bolder;
+    font-size: 40px;
+    color: rgb(242, 109, 27);
+    text-shadow: 5px 5px 5px rgb(0,0,0,0.5);
+}
+
+.Tmain{
+    font-size: 60px;
+    color: #ffffff;
+    text-shadow: 3px 10px 5px rgb(0,0,0,0.5);
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.Tsub{
+    color: #f7ddbe;
+    font-size: 20px;
+    padding-top: 70px;
+    text-shadow: 10px 10px 5px rgb(0,0,0,0.5);
+}
+
+.button{
+    margin-top: 50px;
+    background-color: #ffaf7b;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    color: #000;
+    font-weight: bold;
+    box-shadow: 10px 10px 5px rgb(0,0,0,0.5);
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+
+#but2{
+    margin-left: 20px;
+    background-color: rgb(255, 175, 123, 0.0);
+    border: 3px solid #ffaf7b;
+    color: #ffffff;
+}
+
+.thistr{
+    width: 1320px;
+    display: flex;
+    margin: 50px;
+    padding: 3px;
+    align-items: center;
+}
+
+.thistd{
+    border-radius: 90px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    display: inline;
+    width: 350px;
+    height: 450px;
+    margin: 50px;
+    padding: 30px;
+    padding-top: 0px;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 3px 10px 5px rgb(0,0,0,0.5);
+}
+
+
+#li1{
+    margin-top: 40px;
+    margin-left: 15px;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #000000;
+    box-shadow: 0px 0px 10px #888888;
+}
+
+#a1{
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+
+.fill{
+    margin: 30px;
+    padding: 30px;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 200px;
+    padding-top: 60px;
+    align-items: center;
+    width: 1320px;
+    
+}
+
+h1.item{
+    color: #f2d4b0;
+}
+
+.item{
+    width: 1320px;
+    padding-top: 20px;
+    margin-top: 100px;
+}
+
+/* ==================== */
+/* Media Queries */
+
+
+@media screen and (max-width:330px){
+    .head.container.droppdown {
+        display: none;
+        width:auto;
+        margin-left: 40px;
+        margin-right: 10px;
+      
+    }
+    h1{
+        font-size: 24px;
+    }
+
+    .thistr{
+        display: flex;
+        width: auto;
+        height: auto;
+        
+    }
+
+    .thistd{
+        display: flex;
+        width: auto;
+        height: auto;
+    }
+
+    .flicker{
+        display: none;
+        width: auto;
+        
+    }
+
+    #search{
+        display: flex;
+        float: right;
+
+    }
+}
+
+
+@media  \0 screen {
+    img{
+        width: auto;
+        height: auto;
+    }
+    .jumbotron{
+        width: auto;
+    }
+}
+
